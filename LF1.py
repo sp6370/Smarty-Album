@@ -10,6 +10,7 @@ logger = logging.getLogger()
 def lambda_handler(event, context):
     
     print(event)
+    print("hello")
     
     for image in event['Records']:
         title = image["s3"]["object"]["key"]
