@@ -1,5 +1,16 @@
 # Cloud_Computing_Assignment_2
-#### Submitted by: Jake Gus(jg6829), Sudhanshu Pandey(sp6370)
-#### Frontend url: http://photosfrontend.s3-website-us-east-1.amazonaws.com
-#### Frontend Github: https://github.com/jgus716/assignment2_photo_album
-####
+#### Submitted by: Sudhanshu Pandey(sp6370)
+
+# Summary
+
+The smart photo album is a AWS based serverless cloud application that allows users to upload photos and then search them using voice or text.
+
+  >Users use the frontend up upload images into a S3 Bucket, and provide search queries based on image chracteristics.
+  
+  >The lambda functions then tag the images using Rekognition and the search query is passed through to Lex/Transcribe and the request is processed through another lambda function where ES search the labels generated. 
+  
+  >AWS services used: S3, API Gateway, Lambda, Lex, Elastic Search, Rekognition, Transcribe, 
+    
+- Architecture Diagram
+
+![Overview](A2_Architecture.png)
