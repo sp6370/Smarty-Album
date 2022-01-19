@@ -1,5 +1,3 @@
-# Cloud_Computing_Assignment_2
-#### Submitted by: Sudhanshu Pandey(sp6370)
 
 # Summary
 
